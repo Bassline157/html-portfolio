@@ -1,0 +1,339 @@
+@import url('https://fonts.googleapis.com/css2?family=Fasthand&family=Libre+Baskerville:ital@0;1&display=swap');
+
+
+* {
+  margin: 0;
+  padding: 0%;
+  box-sizing: border-box;
+  font-size: 'Poppins', sans-serif;
+}
+
+body {
+  background-color: black;
+}
+
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 20px 10%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 100;
+  background: transparent;
+}
+
+.logo {
+  position: relative;
+  font-size: 25px;
+  color: white;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.logo::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  background: black;
+  animation: right 1s ease forwards;
+  animation-delay: .4s;
+}
+
+.navbar a {
+  font-size: 18px;
+  color: white;
+  text-decoration: none;
+  font-weight: 600;
+  margin-left: 40px;
+}
+
+.navbar a:hover, .navbar a.active {
+  color: #0d6efd;
+}
+
+.navbar a::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  background: black;
+  animation: right 2.5s ease forwards;
+  animation-delay: .4s;
+}
+
+
+.Home {
+  display: flex;
+  color: white;
+  align-items: center;
+  height: 100vh;
+  padding: 0 10%;
+}
+
+.Home-content {
+  max-width: 600px;
+}
+
+.Home-content h1 {
+  position: relative;
+  font-size: 50px;
+  font-weight: 700;
+}
+
+.Home-content h1::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  background: black;
+  animation: right 1s ease forwards;
+  animation-delay: 1s;
+}
+
+.Home-content h2 {
+  position: relative;
+  font-size: 30px;
+  font-weight: 700;
+  color: #0d6efd;
+}
+
+.Home-content h2::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  background: black;
+  animation: right 1s ease forwards;
+  animation-delay: 1.3s;
+}
+
+.Home-content p {
+  position: relative;
+  font-size: 15px;
+  margin: 20px 0 40px;
+  line-height: 1.2;
+}
+
+.Home-content p::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  background: black;
+  animation: right 1s ease forwards;
+  animation-delay: 1.6s;
+}
+
+.Home-content .btn-box {
+  position: relative;
+  width: 340px;
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  flex-shrink: 0;
+  flex-basis: auto;
+}
+
+.Home-content .btn-box::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  background: black;
+  animation: right 1s ease forwards;
+  animation-delay: 1.8s;
+  z-index: 2;
+}
+
+.btn-box a {
+  position: relative;
+  width: 150px;
+  height: 100%;
+  font-size: 20px;
+  background-color: #0d6efd;
+  border: 2px solid #0d6efd;
+  border-radius: 5px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-decoration: none;
+  font-weight: 700;
+  letter-spacing: 1px;
+  z-index: 1;
+  overflow: hidden;
+}
+
+.btn-box a:nth-child(2) {
+background: transparent;
+color: white;
+}
+
+.btn-box a:nth-child(2)::before {
+  color: #0A6EBD;
+}
+
+.btn-box a::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0%;
+  height: 100%;
+  background-color: white;
+  z-index: -1;
+  transition: .5s;
+}
+
+.btn-box a:hover::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #0d6efd;
+  z-index: -1;
+}
+
+.nav a:hover {
+  color: #0A6EBD;
+}
+
+
+.homecontact {
+position: absolute;
+bottom: 40px;
+width: 170px;
+display: flex;
+justify-content: space-between;
+flex-shrink: 0;
+  flex-basis: auto;
+}
+
+.homecontact a {
+  position: relative;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  background-color: transparent;
+  border: 2px solid #0d6efd;
+  border-radius: 50%;
+  font-size: 20px;
+  color: #0d6efd;
+  text-decoration: none;
+  z-index: 1;
+  overflow: hidden;
+  flex-shrink: 0;
+  flex-basis: auto;
+}
+
+.homecontact a:hover {
+  color: black;
+}
+
+.homecontact a::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0%;
+  height: 100%;
+  background-color: #0d6efd;
+  z-index: -1;
+  transition: .5s;
+}
+
+.homecontact::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  background: black;
+  animation: right 1s ease forwards;
+  animation-delay: 2s;
+  z-index: 2;
+}
+
+.homecontact a:hover:before {
+  width: 100%;
+}
+
+.circle {
+  position: absolute;
+  justify-content: center;
+  align-items: center;
+  top: 35%;
+  bottom: 3%;
+  right: 15%;
+  border-radius: 50%;
+  border: 2px solid black;
+  object-position: center;
+  
+ }
+ 
+ .circular--square { 
+   position: relative;
+   border-radius: 50%; 
+   object-position: center;
+   filter: none;
+   background: transparent;
+ }
+ 
+ .circle:hover {
+   background-color: black;
+   opacity: .8;
+   transition: 3s;
+ }
+
+ .circle::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  background: black;
+  animation: right 3s ease forwards;
+  animation-delay: 1s;
+  z-index: 2;
+}
+
+.circular--square::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  background: black;
+  animation: right 3s ease forwards;
+  animation-delay: 1s;
+  z-index: 2;
+}
+
+@keyframes right {
+  100% {
+    width: 0%;
+  }
+}
