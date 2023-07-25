@@ -102,7 +102,7 @@ section {
   align-items: center;
   height: 100vh;
   padding: 0 10%;
-  background: url(./Untitled\ design\ \(1\).png) no-repeat;
+  background: url(./background.png) no-repeat;
   background-position-x: center;
   background-position-y: cover;
   background-size: cover;
@@ -665,3 +665,6 @@ div.skills-column > div > div > div > div.progress > div.bar {
 div.skills-column > div > div > div > div.progress > div.progress > div {
   width: 60%;
 }
+
+
+
