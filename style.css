@@ -102,7 +102,7 @@ section {
   align-items: center;
   height: 100vh;
   padding: 0 10%;
-  background: url(./Untitled\ design\ \(1\).png);
+  background: url(./Untitled\ design\ \(1\).png) no-repeat;
   background-position-x: center;
   background-position-y: cover;
   background-size: cover;
