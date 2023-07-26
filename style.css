@@ -486,6 +486,19 @@ overflow: hidden;
 
 
 
+
+.experience {
+  color: var(--text-color);
+  display: flex;
+  flex-direction: column;
+  min-height: auto;
+  padding-bottom: 5rem;
+  font-size: 1.6rem;
+  margin: 2rem 0 3rem;
+}
+
+
+
 .experience .experience-row {
   display: flex;
   flex-wrap: wrap;
@@ -530,6 +543,7 @@ overflow: hidden;
   border-radius: .6rem;
   margin-bottom: 2rem;
   overflow: hidden;
+  width: 60rem;
 }
 
 .experience-content .content::before {
@@ -588,16 +602,21 @@ overflow: hidden;
   font-size: 2.5rem;
   margin: 0 0 1.5rem;
   position: relative;
-  padding: .5rem 1.5rem 1.5rem 1.5rem;
+  padding: .5rem 1.5rem;
+  padding-top: 1.5rem;
 }
 
 .skills-box .skills-content {
   position: relative;
   border: .2rem solid var(--main-color);
   border-radius: .6rem;
-  padding: .5rem 1.5rem;
+  padding: 1.5rem 1.5rem;
+  padding-top: 15;
   z-index: 1;
   overflow: hidden;
+  width: 60rem;
+  justify-content: center;
+  align-items: center;
 }
 
 
@@ -665,6 +684,5 @@ div.skills-column > div > div > div > div.progress > div.bar {
 div.skills-column > div > div > div > div.progress > div.progress > div {
   width: 60%;
 }
-
 
 
