@@ -336,7 +336,7 @@ flex-shrink: 0;
 }
 
  
- .Home { 
+ .home { 
    position: relative;
    border-radius: 50%; 
    object-position: center;
@@ -349,7 +349,7 @@ flex-shrink: 0;
  }
  
 
- .Home::before {
+ .home::before {
   content: '';
   position: absolute;
   top: 0;
