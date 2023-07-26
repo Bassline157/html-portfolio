@@ -203,7 +203,7 @@ section {
 
 
 
-.Home-content .btn-box::before {
+.home-content .btn-box::before {
   content: '';
   position: absolute;
   top: 0;
