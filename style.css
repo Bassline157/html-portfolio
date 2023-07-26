@@ -96,7 +96,7 @@ section {
 }
 
 
-.Home {
+.home {
   display: flex;
   color: var(--text-color);
   align-items: center;
@@ -109,30 +109,30 @@ section {
   opacity: 1;
 }
 
-.Home-content {
+.home-content {
   max-width: 60rem;
 }
 
-.Home-content h1 {
+.home-content h1 {
   position: relative;
   font-size: 5.6rem;
   font-weight: 700;
   color: var(--text-color);
 }
 
-.Home-content .text-animate {
+.home-content .text-animate {
   position: relative;
   width: 32.8rem;
 }
 
-.Home-content .text-animate h2 {
+.home-content .text-animate h2 {
   font-size: 3.2rem;
   font-weight: 700;
   -webkit-text-stroke: .7px var(--main-color);
   color: transparent;
 }
 
-.Home-content h1::before {
+.home-content h1::before {
   content: '';
   position: absolute;
   top: 0;
@@ -145,7 +145,7 @@ section {
 }
 
 
-.Home-content .text-animate h2::before {
+.home-content .text-animate h2::before {
   content: '';
   position: absolute;
   top: 0;
@@ -157,14 +157,14 @@ section {
   animation-delay: 1.3s;
 }
 
-.Home-content p {
+.home-content p {
   position: relative;
   font-size: 1.6rem;
   margin: 2rem 0 4rem;
   line-height: 1.2;
 }
 
-.Home-content p::before {
+.home-content p::before {
   content: '';
   position: absolute;
   top: 0;
@@ -684,5 +684,4 @@ div.skills-column > div > div > div > div.progress > div.bar {
 div.skills-column > div > div > div > div.progress > div.progress > div {
   width: 60%;
 }
-
 
